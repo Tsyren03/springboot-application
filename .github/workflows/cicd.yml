@@ -29,15 +29,15 @@ jobs:
           utc0ffset: '+09:00'
 
       - name: Set artifact
-        run: echo "artifact=$(ls ./build/libs/*.jar)" >> $GITHUB_ENV
+        run: echo "artifact=$(ls ./build/libs/*.jar | head -n 1)" >> $GITHUB_ENV
 
       - name: Beanstalk Deploy
         uses: einaregilsson/beanstalk-deploy@v20
         with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: springbootdeploy   # Replace with your application name
-          environment_name: springbootdeploy-env     # Replace with your environment name
-          version_label: github-action-${{steps.current-time.outputs.formattedTime}}  # Unique version label
-          region: ap-northeast-2                   # Replace with your AWS region
-          deployment_package: ./build/libs/${{env.artifact}}           # Use the artifact set in the previous step
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }} # Corrected input name
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }} # Corrected input name
+          application_name: springbootdeploy   # Your application name
+          environment_name: springbootdeploy-env # Your environment name
+          version_label: github-action-${{ steps.current-time.outputs.formattedTime }}  # Unique version label
+          region: ap-northeast-2                # Your AWS region
+          deployment_package: ${{ env.artifact }} # Use the artifact set in the previous step
