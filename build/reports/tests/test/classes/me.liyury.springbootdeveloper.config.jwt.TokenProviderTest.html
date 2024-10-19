@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.966s</div>
+<div class="counter">1.028s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,13 +81,13 @@
 <tr>
 <td class="success">generateToken(): 유저 정보와 만료 기간을 전달해 토큰을 만들 수 있다.</td>
 <td class="success">generateToken()</td>
-<td class="success">0.107s</td>
+<td class="success">0.099s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">getAuthentication(): 토큰 기반으로 인증정보를 가져올 수 있다.</td>
 <td class="success">getAuthentication()</td>
-<td class="success">0.014s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -105,7 +105,7 @@
 <tr>
 <td class="success">validToken(): 유효한 토큰인 경우에 유효성 검증에 성공한다.</td>
 <td class="success">validToken_validToken()</td>
-<td class="success">0.831s</td>
+<td class="success">0.902s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -113,8 +113,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>11:05:30.420 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [me.liyury.springbootdeveloper.config.jwt.TokenProviderTest]: TokenProviderTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-11:05:30.576 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration me.liyury.springbootdeveloper.SpringBootDeveloperApplication for test class me.liyury.springbootdeveloper.config.jwt.TokenProviderTest
+<pre>19:35:54.537 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [me.liyury.springbootdeveloper.config.jwt.TokenProviderTest]: TokenProviderTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:35:54.693 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration me.liyury.springbootdeveloper.SpringBootDeveloperApplication for test class me.liyury.springbootdeveloper.config.jwt.TokenProviderTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -124,18 +124,18 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.0)
 
-2024-10-19T11:05:31.242+09:00  INFO 4616 --- [    Test worker] m.l.s.config.jwt.TokenProviderTest       : Starting TokenProviderTest using Java 17.0.10 with PID 4616 (started by Xizel in C:\Users\Xizel\OneDrive\Рабочий стол\Projects\Java\springboot-developer)
-2024-10-19T11:05:31.245+09:00  INFO 4616 --- [    Test worker] m.l.s.config.jwt.TokenProviderTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2024-10-19T11:05:32.708+09:00  INFO 4616 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-19T11:05:32.867+09:00  INFO 4616 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 3 JPA repository interfaces.
-2024-10-19T11:05:33.632+09:00  INFO 4616 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-19T11:05:33.909+09:00  INFO 4616 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:351bd696-2f83-48cb-b477-1c237d72a55b user=SA
-2024-10-19T11:05:33.915+09:00  INFO 4616 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-19T11:05:33.999+09:00  INFO 4616 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-19T11:05:34.103+09:00  INFO 4616 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-10-19T11:05:34.191+09:00  INFO 4616 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-10-19T11:05:34.665+09:00  INFO 4616 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-19T11:05:35.833+09:00  INFO 4616 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-19T19:35:55.365+09:00  INFO 19652 --- [    Test worker] m.l.s.config.jwt.TokenProviderTest       : Starting TokenProviderTest using Java 17.0.10 with PID 19652 (started by Xizel in C:\Users\Xizel\OneDrive\Рабочий стол\Projects\Java\springboot-developer)
+2024-10-19T19:35:55.369+09:00  INFO 19652 --- [    Test worker] m.l.s.config.jwt.TokenProviderTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-10-19T19:35:56.896+09:00  INFO 19652 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-19T19:35:57.052+09:00  INFO 19652 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 3 JPA repository interfaces.
+2024-10-19T19:35:57.793+09:00  INFO 19652 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-19T19:35:58.063+09:00  INFO 19652 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ac8dadf2-53c0-4397-ac14-f96e412b8396 user=SA
+2024-10-19T19:35:58.066+09:00  INFO 19652 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-19T19:35:58.157+09:00  INFO 19652 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-19T19:35:58.262+09:00  INFO 19652 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-10-19T19:35:58.366+09:00  INFO 19652 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-19T19:35:58.834+09:00  INFO 19652 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-19T19:36:00.002+09:00  INFO 19652 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 Hibernate: 
     drop table if exists article cascade 
 Hibernate: 
@@ -167,19 +167,19 @@ Hibernate:
         password varchar(255),
         primary key (id)
     )
-2024-10-19T11:05:35.890+09:00  INFO 4616 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-19T11:05:36.923+09:00  WARN 4616 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-19T11:05:38.288+09:00  INFO 4616 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3be2ef56, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a8149f6, org.springframework.security.web.context.SecurityContextHolderFilter@16160a37, org.springframework.security.web.header.HeaderWriterFilter@6ad4ef13, org.springframework.web.filter.CorsFilter@672549f3, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@21f27bb5, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@2f59cb6f, me.liyury.springbootdeveloper.config.TokenAuthenticationFilter@4cbd17b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17b9c9ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b45f7ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4791d904, org.springframework.security.web.session.SessionManagementFilter@7c7a4986, org.springframework.security.web.access.ExceptionTranslationFilter@3b3dc752, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7bbe5548]
-2024-10-19T11:05:38.998+09:00  INFO 4616 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:351bd696-2f83-48cb-b477-1c237d72a55b'
-2024-10-19T11:05:39.106+09:00  WARN 4616 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore org.springframework.boot.autoconfigure.security.servlet.PathRequest$H2ConsoleRequestMatcher@73418044. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2024-10-19T11:05:39.106+09:00  INFO 4616 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.boot.autoconfigure.security.servlet.PathRequest$H2ConsoleRequestMatcher@73418044
-2024-10-19T11:05:39.109+09:00  WARN 4616 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2024-10-19T11:05:39.109+09:00  INFO 4616 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/img/**']
-2024-10-19T11:05:39.109+09:00  WARN 4616 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2024-10-19T11:05:39.109+09:00  INFO 4616 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/css/**']
-2024-10-19T11:05:39.109+09:00  WARN 4616 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2024-10-19T11:05:39.109+09:00  INFO 4616 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/js/**']
-2024-10-19T11:05:39.287+09:00  INFO 4616 --- [    Test worker] m.l.s.config.jwt.TokenProviderTest       : Started TokenProviderTest in 8.447 seconds (process running for 10.389)
+2024-10-19T19:36:00.068+09:00  INFO 19652 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19T19:36:01.163+09:00  WARN 19652 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-19T19:36:02.402+09:00  INFO 19652 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@60cbba57, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@614d01b, org.springframework.security.web.context.SecurityContextHolderFilter@32d3b965, org.springframework.security.web.header.HeaderWriterFilter@3b3dc752, org.springframework.web.filter.CorsFilter@3be2ef56, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@67e37d25, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@4e451f9a, me.liyury.springbootdeveloper.config.TokenAuthenticationFilter@a4388f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16160a37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@380e470a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a8149f6, org.springframework.security.web.session.SessionManagementFilter@6ad4ef13, org.springframework.security.web.access.ExceptionTranslationFilter@6f09cb98, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5603632c]
+2024-10-19T19:36:02.904+09:00  INFO 19652 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ac8dadf2-53c0-4397-ac14-f96e412b8396'
+2024-10-19T19:36:02.987+09:00  WARN 19652 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore org.springframework.boot.autoconfigure.security.servlet.PathRequest$H2ConsoleRequestMatcher@73418044. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-10-19T19:36:02.988+09:00  INFO 19652 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.boot.autoconfigure.security.servlet.PathRequest$H2ConsoleRequestMatcher@73418044
+2024-10-19T19:36:02.989+09:00  WARN 19652 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-10-19T19:36:02.989+09:00  INFO 19652 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/img/**']
+2024-10-19T19:36:02.989+09:00  WARN 19652 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-10-19T19:36:02.989+09:00  INFO 19652 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/css/**']
+2024-10-19T19:36:02.990+09:00  WARN 19652 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-10-19T19:36:02.990+09:00  INFO 19652 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/js/**']
+2024-10-19T19:36:03.093+09:00  INFO 19652 --- [    Test worker] m.l.s.config.jwt.TokenProviderTest       : Started TokenProviderTest in 8.148 seconds (process running for 10.067)
 Hibernate: 
     insert 
     into
@@ -198,7 +198,7 @@ Hibernate:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.2</a> at Oct 19, 2024, 11:05:44 AM</p>
+<a href="http://www.gradle.org">Gradle 8.2</a> at Oct 19, 2024, 7:36:07 PM</p>
 </div>
 </div>
 </body>
