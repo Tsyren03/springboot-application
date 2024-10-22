@@ -1,5 +1,5 @@
 # My first SpringBoot project
-It uses OAuth2, h2 database, JWT
+It uses OAuth2, h2 database, JWT.
 Futher development: AWS deployment and CI/CD integration 
 
 
